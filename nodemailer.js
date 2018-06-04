@@ -7,7 +7,7 @@ router.post('/employee/forgot', function (req, res) {
           secure: true,
           auth: {
               user: 'backbencher0527@gmail.com',
-              pass: 'backbencher@123'
+              pass: ''
           }
       });
       let mailOptions = {
